@@ -7,7 +7,7 @@ export default async (req, res) => {
     try{
         await doc.useServiceAccountAuth(credential)
         await doc.loadInfo()
-        console.log(doc.title)
+        await 
         res.send(doc.title)
     }catch(err){
         console.log(err)
