@@ -1,0 +1,9 @@
+## Next
+.next/
+next/
+
+## Node
+node_modules/
+
+## Config
+credentials.json
