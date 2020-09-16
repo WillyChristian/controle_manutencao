@@ -23,6 +23,7 @@ export default async (req, res) => {
                 time,status
             })
         }
+        res.send(agenda)
     }catch(err){
         console.log(err)
     }

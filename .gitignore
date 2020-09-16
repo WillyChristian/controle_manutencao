@@ -6,4 +6,5 @@ next/
 node_modules/
 
 ## Config
-credentials.json
+.env
+.env.local
