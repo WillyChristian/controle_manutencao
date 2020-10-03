@@ -1,10 +1,16 @@
 import React from 'react'
+import Menu from '../components/menu'
 
-export const Header = () =>{
+const Header = () =>{
     return (
-       <div className="container">
-           Isso é o cabeçalho
-       </div>
+        <React.Fragment>
+            <div className="container-header">
+                Isso é o cabeçalho
+            </div>
+            <Menu />
+        </React.Fragment>
         
     )
 }
+
+export default Header

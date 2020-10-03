@@ -4,11 +4,21 @@
     box-sizing: border-box;
 }
 
-.container{
+.container-header{
     width: 100%;
-    height: 40vh;
+    height: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #151515;
+    color: #fff;
+}
+
+.cont-body{
+    display: flex;
+    height: 80vh;
+    justify-content: space-around;
+    width: fit-content;
+    background-color: teal;
 }

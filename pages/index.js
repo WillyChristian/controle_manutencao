@@ -1,14 +1,10 @@
 import React  from "react";
+import Body from '../Src/components/body'
 
-
-const App = (props) => {
-    const cont = props
+const App = () => {    
     return (
         <>
-            <div className="container">
-                <h1>Olá mundo !</h1>
-                   
-            </div>
+            <Body />
         </>
     )
 }
